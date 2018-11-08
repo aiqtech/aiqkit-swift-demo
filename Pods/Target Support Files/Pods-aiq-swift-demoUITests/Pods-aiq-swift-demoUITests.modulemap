@@ -1,0 +1,6 @@
+framework module Pods_aiq_swift_demoUITests {
+  umbrella header "Pods-aiq-swift-demoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
