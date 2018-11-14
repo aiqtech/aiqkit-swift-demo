@@ -15,7 +15,6 @@
 		0CBAD69F2192B3AA0030DBA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CBAD69D2192B3AA0030DBA5 /* LaunchScreen.storyboard */; };
 		0CBAD6AA2192B3AA0030DBA5 /* aiq_swift_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBAD6A92192B3AA0030DBA5 /* aiq_swift_demoTests.swift */; };
 		0CBAD6B52192B3AA0030DBA5 /* aiq_swift_demoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBAD6B42192B3AA0030DBA5 /* aiq_swift_demoUITests.swift */; };
-		0CBAD6C42192B6000030DBA5 /* AIQKIt-Bridging-Header.h in Sources */ = {isa = PBXBuildFile; fileRef = 0CBAD6C32192B56A0030DBA5 /* AIQKIt-Bridging-Header.h */; };
 		127DD3A2423A2766E1402B63 /* Pods_aiq_swift_demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95E00E3C6C4B01664414FA47 /* Pods_aiq_swift_demo.framework */; };
 		6A9AE39841608C7D09204A61 /* Pods_aiq_swift_demoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A107F05D551A679DD2B1E0E /* Pods_aiq_swift_demoTests.framework */; };
 /* End PBXBuildFile section */
@@ -38,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C47E68C219C053F0065AF1B /* aqi-swift-demo-swift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "aqi-swift-demo-swift-Bridging-Header.h"; sourceTree = "<group>"; };
 		0CBAD6912192B3A90030DBA5 /* aiq-swift-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "aiq-swift-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CBAD6942192B3A90030DBA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0CBAD6962192B3A90030DBA5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -51,7 +51,6 @@
 		0CBAD6B02192B3AA0030DBA5 /* aiq-swift-demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "aiq-swift-demoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CBAD6B42192B3AA0030DBA5 /* aiq_swift_demoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aiq_swift_demoUITests.swift; sourceTree = "<group>"; };
 		0CBAD6B62192B3AA0030DBA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0CBAD6C32192B56A0030DBA5 /* AIQKIt-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AIQKIt-Bridging-Header.h"; sourceTree = "<group>"; };
 		16D0C73B6200F0CCF75CA568 /* Pods-aiq-swift-demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-aiq-swift-demo.debug.xcconfig"; path = "Target Support Files/Pods-aiq-swift-demo/Pods-aiq-swift-demo.debug.xcconfig"; sourceTree = "<group>"; };
 		1E27584F7D7D40D15EA328AA /* Pods-aiq-swift-demoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-aiq-swift-demoUITests.release.xcconfig"; path = "Target Support Files/Pods-aiq-swift-demoUITests/Pods-aiq-swift-demoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		1E7BF65007DB1C9E09DF676E /* Pods-aiq-swift-demoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-aiq-swift-demoTests.release.xcconfig"; path = "Target Support Files/Pods-aiq-swift-demoTests/Pods-aiq-swift-demoTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -94,7 +93,7 @@
 		0CBAD6882192B3A90030DBA5 = {
 			isa = PBXGroup;
 			children = (
-				0CBAD6C22192B4E40030DBA5 /* AIQ-bridge */,
+				0C47E68C219C053F0065AF1B /* aqi-swift-demo-swift-Bridging-Header.h */,
 				0CBAD6932192B3A90030DBA5 /* aiq-swift-demo */,
 				0CBAD6A82192B3AA0030DBA5 /* aiq-swift-demoTests */,
 				0CBAD6B32192B3AA0030DBA5 /* aiq-swift-demoUITests */,
@@ -145,14 +144,6 @@
 			path = "aiq-swift-demoUITests";
 			sourceTree = "<group>";
 		};
-		0CBAD6C22192B4E40030DBA5 /* AIQ-bridge */ = {
-			isa = PBXGroup;
-			children = (
-				0CBAD6C32192B56A0030DBA5 /* AIQKIt-Bridging-Header.h */,
-			);
-			path = "AIQ-bridge";
-			sourceTree = "<group>";
-		};
 		33131C62D17BCC8042CF0BD0 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -188,6 +179,7 @@
 				0CBAD68E2192B3A90030DBA5 /* Frameworks */,
 				0CBAD68F2192B3A90030DBA5 /* Resources */,
 				ACF7BADC5F3AF72797A43805 /* [CP] Embed Pods Frameworks */,
+				50132AA8A4C7D08ABA7D959C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -329,6 +321,28 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		50132AA8A4C7D08ABA7D959C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-aiq-swift-demo/Pods-aiq-swift-demo-resources.sh",
+				"${PODS_ROOT}/AIQKit/AIQKit/iQKitResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/iQKitResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-aiq-swift-demo/Pods-aiq-swift-demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		ACF7BADC5F3AF72797A43805 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -342,6 +356,12 @@
 				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
 				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
 				"${BUILT_PRODUCTS_DIR}/FBSDKShareKit/FBSDKShareKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/NFAllocInit/NFAllocInit.framework",
+				"${BUILT_PRODUCTS_DIR}/SBJson/SBJson.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SVWebViewController/SVWebViewController.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
@@ -351,6 +371,12 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKShareKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NFAllocInit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SBJson.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVWebViewController.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -408,7 +434,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CBAD6C42192B6000030DBA5 /* AIQKIt-Bridging-Header.h in Sources */,
 				0CBAD6972192B3A90030DBA5 /* ViewController.swift in Sources */,
 				0CBAD6952192B3A90030DBA5 /* AppDelegate.swift in Sources */,
 			);
@@ -596,7 +621,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "tech.aiq.swiftdemo.aiq-swift-demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_OBJC_BRIDGING_HEADER = "aqi-swift-demo-swift-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -616,7 +642,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "tech.aiq.swiftdemo.aiq-swift-demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_OBJC_BRIDGING_HEADER = "aqi-swift-demo-swift-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
