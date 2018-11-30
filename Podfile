@@ -6,7 +6,7 @@ target 'aiq-swift-demo' do
   use_frameworks!
 
   # Pods for aiq-swift-demo
-  pod 'AIQKit', '0.9.6'
+  pod 'AIQKit', '0.9.7'
   
   pod 'SVProgressHUD', '~> 2.0'
   pod 'SVWebViewController', '~> 1.0'
