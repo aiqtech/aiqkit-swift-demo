@@ -9,3 +9,5 @@ To try the sample app:
 * Run pod install 
 
 * Open aiqkit-swift-demo.xcworkspace
+
+* For FAQ and integration of AIQKit to your iOS Swift, refer to the Wiki [here](https://github.com/aiqtech/aiqkit-swift-demo/wiki)
