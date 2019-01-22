@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import FBSDKShareKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -18,7 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
-        iQKit.setAppID("5f61ed2c19e734ca4cf29aa7413dc2ec5bd7e1fb3882cdb1db", andAppSecret:"15d674e0308a6d05838ca10b64c087d6287b45406137a459581a4b7bc6c1f445");
+        iQKit.setAppID("APP-ID", andAppSecret:"APP-SECRET");
         iQKit.setUserAge(21);
         iQKit.setUserGender("f");
       

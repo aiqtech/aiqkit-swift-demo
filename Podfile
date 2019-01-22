@@ -6,12 +6,11 @@ target 'aiq-swift-demo' do
   use_frameworks!
 
   # Pods for aiq-swift-demo
-  pod 'AIQKit', '0.9.7'
+  pod 'AIQKit', '~>0.9'
   
   pod 'SVProgressHUD', '~> 2.0'
   pod 'SVWebViewController', '~> 1.0'
   pod 'NFAllocInit', '~> 1.0'
-  
   pod 'FBSDKCoreKit'
   pod 'FBSDKLoginKit'
   pod 'FBSDKShareKit'
@@ -25,5 +24,10 @@ target 'aiq-swift-demo' do
     inherit! :search_paths
     # Pods for testing
   end
+end
 
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    puts "POSTINSTALL #{target.name}"
+  end
 end
